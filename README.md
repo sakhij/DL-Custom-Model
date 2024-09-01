@@ -21,7 +21,7 @@ Use the following file to print values per epoch:
 ```
 Else use:
 ```bash
-python3 
+python3 CustomModelCifar10.py
 ```
 
 # Expected Output:(Use as Reference)
