@@ -18,6 +18,7 @@ git clone https://github.com/sakhij/DL-Custom-Model.git
 ```
 Use the following file to print values per epoch:
 ```bash
+python3 CustomModelWithValues.py
 ```
 Else use:
 ```bash
