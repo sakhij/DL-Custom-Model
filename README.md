@@ -17,5 +17,4 @@ Clone the repository and run the python code:
 
 #Expected Output:
 The graphs looks as:
-![image](https://github.com/user-attachments/assets/bf7b142a-0817-4d29-a3fa-bc87e56ac067)
 ![Graphs for Cipher10](https://github.com/user-attachments/assets/c0eccc5b-dc37-4c2d-9ac2-f0a20e7184f6)
