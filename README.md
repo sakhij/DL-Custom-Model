@@ -15,9 +15,9 @@ pip freeze | grep -E 'numpy|tensorflow|scikit-learn|matplotlib'
 Clone the repository and run the python code:
 
 
-# Expected Output:
+# Expected Output:(USE AS REFERENCE)
 The graphs for 20 epochs look like:
 ![Graphs for Cipher10](https://github.com/user-attachments/assets/c0eccc5b-dc37-4c2d-9ac2-f0a20e7184f6)
 Model's metrics are:<br>
-`Precision Metric: 0.7595`
+`Precision Metric: 0.7595`<br>
 `Recall Metric: 0.7555`
