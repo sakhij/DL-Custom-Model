@@ -13,7 +13,16 @@ pip freeze | grep -E 'numpy|tensorflow|scikit-learn|matplotlib'
 
 # How to Run:
 Clone the repository and run the python code:
-
+```bash
+git clone https://github.com/sakhij/DL-Custom-Model.git
+```
+Use the following file to print values per epoch:
+```bash
+```
+Else use:
+```bash
+python3 
+```
 
 # Expected Output:(Use as Reference)
 The graphs for 20 epochs look like:
