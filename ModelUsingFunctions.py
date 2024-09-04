@@ -178,12 +178,20 @@ if __name__ == '__main__':
     # Evaluate on the test set
     pre_y = clf.predict(test_X)
     score = clf.score(pre_y, test_y)
+    precision, recall = clf.evaluate_metrics(test_X, test_y)
+    
     print('Predicted labels: ', pre_y[:10])
     print('True labels:', np.argmax(test_y, axis=1)[:10])
     print('Accuracy score: ', score)
+    print('Precision: ', precision)
+    print('Recall: ', recall)
 
-    # Load the trained model and evaluate again
+# Load the trained model and evaluate again
     clf.load_model('my_nn_model.pkl')
-    pre_y = clf.predict(test_X)
-    score = clf.score(pre_y, test_y)
+    pre_y = clf.predict(test_X)  # Predict
+    score = clf.score(pre_y, test_y)  # Get the accuracy score
+    precision, recall = clf.evaluate_metrics(test_X, test_y)  # Get precision and recall
+    
     print('Accuracy score after loading the model: ', score)
+    print('Precision after loading the model: ', precision)
+    print('Recall after loading the model: ', recall)
